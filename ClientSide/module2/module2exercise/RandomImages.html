@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="with=device-width, initial-scale=1"> 
+      <script src= "random.js"> </script>
+
+      <title>Random Images</title>
+
+   </head>
+      <body>
+          <h1>Diavonte Rhodes</h1>
+          <h2>Swapping Images</h2>
+          <p> This page shows how to swap images using JavaScript</p>
+          <aside>
+              <p id="imgDescr"> kylo Ren is Darth Vader's grandson. He is the son of Han Solo and former student of jedi master Luke SKywalker.</p>
+          </aside>
+
+      <img id="kyloren" src="images/kyloren.jpg" alt="image of kylo Ren"
+      style="border: 1px solid black; margin-right: 12px; width: 450px; height: 550px;" >
+
+      <div>
+          <img src="images/kyloRensmall.jpg"
+          onclick="showImage('images/kyloren.jpg')"
+          style="border: black; margin: 7x;"> 
+
+          <img src="images/mandosmall.jpg"
+          onclick="showImage('images/mando.jpg')"
+          style="border: black; margin: 7px;" >
+        
+          <img src="images/stormtroopersmall.jpg"
+          onclick="showImage('images/stormtrooper.jpg')"
+          style="border: black; margin: 7px;" >
+         </div>
+      </body>
+</html>
